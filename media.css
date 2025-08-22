@@ -15,6 +15,7 @@
         width: 100%;
         bottom: 0px;
         left: 0px;
+        z-index: 99999;
     }
     .btncall>button
     {
@@ -83,6 +84,7 @@
         width: 100%;
         bottom: 0px;
         left: 0px;
+        z-index: 99999;
     }
     .btncall>button
     {
