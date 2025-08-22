@@ -71,6 +71,11 @@
         flex-basis: 45%;
         margin:2.5%;
     }
+    .our-achievement-mid-item
+    {
+        flex-basis: 40%;
+        margin:5%;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -141,6 +146,11 @@
         flex-basis: 45%;
         margin:2.5%;
     }
+    .our-achievement-mid-item
+    {
+        flex-basis: 40%;
+        margin:5%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -194,6 +204,11 @@
         flex-basis:30%;
         margin:1.5%;
     }
+    .our-achievement-mid-item
+    {
+        flex-basis:30%;
+        margin:1.5%;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
@@ -207,6 +222,10 @@
         padding-bottom:40px;
     }
     .why-packshift-mid
+    {
+        padding: 0px 20px;
+    }
+    .our-achievement-mid
     {
         padding: 0px 20px;
     }
