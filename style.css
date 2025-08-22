@@ -14,6 +14,7 @@ header
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index: 9999;
 }
 .header-mid 
 {
@@ -259,7 +260,7 @@ header
     width: 100%;
     padding: 50px 0px;
 }
-.packing-video>h2 
+.same-heading
 {
     display: flex;
     align-items: center;
@@ -271,7 +272,7 @@ header
     line-height: 26px;
     color: #035fae;
 }
-.packing-video>h2 span 
+.same-heading span 
 {
     color: yellow;
 }
@@ -303,5 +304,88 @@ header
     margin-left: 10px;
     padding-top: 10px;
     color: #035fae;
+}
+/* end */
+
+/* services */
+.service 
+{
+    width: 100%;
+    background-color: #F4F4F4;
+    padding: 50px 0px;
+}
+.service-mid 
+{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+}
+.service-items
+{
+    flex-basis:47%;
+    margin:1.5%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    overflow:hidden !important;
+}
+.service-items .service-items-img
+{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+}
+.service-items .service-items-img img 
+{
+    width: 100%;
+    transition: 0.5s;
+    border-radius: 20px 20px 0px 0px;
+}
+.service-items:hover.service-items .service-items-img img 
+{
+    transform: scale(1.1,1.1);
+}
+.service-items-content
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-items-content>h3 
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #035fae;
+    text-transform: uppercase;
+    text-align: center;
+}
+.service-items-content>p 
+{
+    text-align: justify;
+    color: #6c717b;
+    text-transform: capitalize;
+    line-height: 30px;
+    min-height: 145px;
+    margin-bottom: 16px;
+}
+.service-items-content>button
+{
+    font-size: 16px;
+    background: linear-gradient(177.32deg, rgba(251, 255, 56, 0.8) 13.44%, rgba(255, 255, 255, 0) 87.87%), #ffcf40;
+    box-shadow: 0px 4px 14px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 8px 25px;
+    color: #2F2F2F;
+    border: 0px;
+    
 }
 /* end */

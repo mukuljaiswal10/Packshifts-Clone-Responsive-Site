@@ -60,6 +60,11 @@
         flex-basis:95%;
         margin:5% 2.5%;
     }
+    .service-items
+    {
+        flex-basis: 95%;
+        margin: 5% 2.5%;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -119,6 +124,11 @@
         flex-basis:96%;
         margin:4% 2%;
     }
+    .service-items
+    {
+        flex-basis: 96%;
+        margin: 4% 2%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -157,6 +167,11 @@
     {
         flex-basis:47%;
         margin:2% 1.5%;
+    }
+    .service-items
+    {
+        flex-basis:47%;
+        margin: 2% 1.5%;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
