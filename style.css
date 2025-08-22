@@ -389,3 +389,60 @@ header
     
 }
 /* end */
+
+/* why-packshift */
+.why-packshift 
+{
+    width: 100%;
+    padding: 50px 0px;
+}
+.why-packshift .sub-heading 
+{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding:35px 0px;
+}
+.why-packshift-mid 
+{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.why-packshift-mid-item
+{
+    flex-basis: 23%;
+    margin: 1%;
+    background-color: #F4F4F4;
+    overflow: hidden !important;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    padding: 10px;
+    border-radius: 20px;
+}
+.why-packshift-mid-item .why-packshift-mid-item-img
+{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.why-packshift-mid-item .why-packshift-mid-item-img img 
+{
+    width:75px;
+    height:75px;
+    transition: 0.5s;
+}
+.why-packshift-mid-item:hover.why-packshift-mid-item .why-packshift-mid-item-img img 
+{
+    transform: scale(1.11,1.11);
+}
+.why-packshift-mid-item>h3
+{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+/* end */

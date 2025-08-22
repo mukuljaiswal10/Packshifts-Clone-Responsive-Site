@@ -66,6 +66,11 @@
         flex-basis: 95%;
         margin: 5% 2.5%;
     }
+    .why-packshift-mid-item
+    {
+        flex-basis: 45%;
+        margin:2.5%;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -131,6 +136,11 @@
         flex-basis: 96%;
         margin: 4% 2%;
     }
+    .why-packshift-mid-item
+    {
+        flex-basis: 45%;
+        margin:2.5%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -175,6 +185,15 @@
         flex-basis:47%;
         margin: 2% 1.5%;
     }
+    .why-packshift-mid
+    {
+        justify-content: center;
+    }
+    .why-packshift-mid-item
+    {
+        flex-basis:30%;
+        margin:1.5%;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
@@ -186,6 +205,10 @@
     {
         padding: 0px 50px;
         padding-bottom:40px;
+    }
+    .why-packshift-mid
+    {
+        padding: 0px 20px;
     }
 }
 @media only screen and (min-width:1200px) and (max-width:1399.5px)
