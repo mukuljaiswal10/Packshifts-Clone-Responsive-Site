@@ -241,9 +241,67 @@ header
     font-weight: bold;
     margin-top: 10px;
     color: white;
-    transition: 0.5s;
+    transition: 1s;
     background: linear-gradient(rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0) 100%), rgb(21, 94, 209);
     border: none;
     padding:8px 0px;
+    cursor: pointer;
+}
+.banner-form form>button:hover 
+{
+    background: linear-gradient(174.82deg, rgba(251, 255, 56, 0.8) 13.44%, rgba(255, 255, 255, 0) 87.87%), #035fae;
+}
+/* end */
+
+/* packing-video-section */
+.packing-video
+{
+    width: 100%;
+    padding: 50px 0px;
+}
+.packing-video>h2 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 26px;
+    color: #035fae;
+}
+.packing-video>h2 span 
+{
+    color: yellow;
+}
+.packing-video-mid
+{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+}
+.video-items
+{
+    flex-basis: 30.3333%;
+    margin: 1.5%;
+    border-radius:20px;
+}
+.video-items>iframe 
+{
+    width: 100%;
+    border-radius:20px;
+}
+.video-items>h4 
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    color: #035fae;
 }
 /* end */
