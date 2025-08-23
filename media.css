@@ -104,6 +104,22 @@
     {
         padding: 50px 10px;
     }
+    .footer-section
+    {
+        padding-top: 20px;
+        padding-bottom:80px;
+    }
+    .footer-top 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-a
+    {
+        padding-bottom: 20px;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -203,6 +219,22 @@
         flex-basis:45%;
         margin:2.5%;
     }
+    .footer-section
+    {
+        padding-top: 20px;
+        padding-bottom:120px;
+    }
+    .footer-top 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-a
+    {
+        padding-bottom: 20px;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -278,6 +310,10 @@
     {
         padding: 0px 20px;
     }
+    .footer-mid
+    {
+        padding: 0px 20px;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
@@ -295,6 +331,10 @@
         padding: 0px 20px;
     }
     .our-achievement-mid
+    {
+        padding: 0px 20px;
+    }
+    .footer-mid
     {
         padding: 0px 20px;
     }
