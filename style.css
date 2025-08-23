@@ -652,3 +652,30 @@ header
     line-height:25px;
 }
 /* end */
+
+/* our-client */
+.our-client 
+{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #F4F4F4;
+}
+.our-client-mid 
+{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.our-client-mid .our-client-mid-items
+{
+    flex-basis: 18%;
+}
+.our-client-mid .our-client-mid-items>img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+/* end */

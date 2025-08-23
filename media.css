@@ -91,6 +91,15 @@
         margin:5%;
         margin-top:30px;
     }
+    .our-client-mid
+    {
+        justify-content: center;
+    }
+    .our-client-mid .our-client-mid-items
+    {
+        flex-basis:45%;
+        margin:2.5%;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -181,6 +190,15 @@
         margin:5%;
         margin-top:30px;
     }
+    .our-client-mid
+    {
+        justify-content: center;
+    }
+    .our-client-mid .our-client-mid-items
+    {
+        flex-basis:45%;
+        margin:2.5%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -251,6 +269,10 @@
     .happy-customer-mid-slider-items
     {
         width: 650px;
+    }
+    .our-client-mid
+    {
+        padding: 0px 20px;
     }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
